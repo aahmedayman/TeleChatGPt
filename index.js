@@ -30,3 +30,4 @@ bot.on("message", async (msg) => {
 
     bot.sendMessage(chatId, generatedText);
 });
+bot.setWebHook('https://combative-red-handkerchief.cyclic.app')
